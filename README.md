@@ -23,8 +23,8 @@ The repository is intended to support scientific transparency and allow readers 
 
 ```
 .
-├── CHERD_upload_review.py      # Main Python script
-├── CHERD_plot.mlx              # MATLAB Live Script for generating figures
+├── Bioreactor_RNN_Identification.py      # Main Python script
+├── Bioreactor_RNN_Plots.mlx              # MATLAB Live Script for generating figures
 ├── results/                    # Automatically generated after execution
 │   ├── data/
 │   └── models/
@@ -57,7 +57,7 @@ MATLAB (R2023a or later recommended)
 The supplied Live Script
 
 ```
-CHERD_plot.mlx
+Bioreactor_RNN_Plots.mlx
 ```
 
 is used only to generate the publication-quality figures from the data produced by the Python script.
@@ -71,7 +71,7 @@ is used only to generate the publication-quality figures from the data produced 
 Run
 
 ```
-CHERD_upload_review.py
+Bioreactor_RNN_Identification.py
 ```
 
 This script
@@ -93,7 +93,7 @@ After the Python script completes successfully,
 open
 
 ```
-CHERD_plot.mlx
+Bioreactor_RNN_Plots.mlx
 ```
 
 in MATLAB.
